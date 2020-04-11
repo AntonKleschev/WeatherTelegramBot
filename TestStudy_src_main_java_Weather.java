@@ -42,10 +42,10 @@ public class Weather {
             model.setMain((String) obj.get("main"));
         }
 
-        return "City: " + model.getName() + "\n" +
-                "Temperature: " + model.getTemp() + "C" + "\n" +
-                "Humidity: " + model.getHumidity() + "%" + "\n" +
-                "Main: " + model.getMain() + "\n";
+        return "Город: " + model.getName() + "\n" +
+                "Температура: " + model.getTemp() + "C" + "\n" +
+                "Влажность: " + model.getHumidity() + "%" + "\n" +
+                "Погода: " + model.getMain() + "\n";
             //    "http://openweathermap.org/img/wn/" + model.getIcon() + ".png";
     }
 
