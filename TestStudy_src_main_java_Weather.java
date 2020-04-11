@@ -42,7 +42,7 @@ public class Weather {
             model.setMain((String) obj.get("main"));
         }
 
-        return "Город: " + model.getName() + "\n" +
+        return "Gorod: " + model.getName() + "\n" +
                 "Температура: " + model.getTemp() + "C" + "\n" +
                 "Влажность: " + model.getHumidity() + "%" + "\n" +
                 "Погода: " + model.getMain() + "\n";
